@@ -123,6 +123,7 @@ mergeKLine(5)
           }
           obj.prevOpen = new Big(x2.close);
         }
+        prev = x1.dir;
       }
 
       return of(obj.sum.toString());
